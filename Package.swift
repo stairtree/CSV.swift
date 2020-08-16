@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "CSV.swift",
+    name: "yaslabCSV",
     products: [
-        .library(name: "yaslabCSV", targets: ["CSV"])
+        .library(name: "yaslabCSV", targets: ["yaslabCSV"])
     ],
     targets: [
-        .target(name: "CSV"),
-        .testTarget(name: "CSVTests", dependencies: [.target(name: "CSV")])
+        .target(name: "yaslabCSV", path: "Sources/CSV"),
+        .testTarget(name: "CSVTests", dependencies: [.target(name: "yaslabCSV")])
     ]
 )

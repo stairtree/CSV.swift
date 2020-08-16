@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import CSV
+@testable import yaslabCSV
 
 class LineBreakTests: XCTestCase {
 

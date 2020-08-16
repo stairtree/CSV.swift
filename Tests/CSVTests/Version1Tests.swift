@@ -8,8 +8,7 @@
 
 import Foundation
 import XCTest
-
-import CSV
+@testable import yaslabCSV
 
 class Version1Tests: XCTestCase {
 

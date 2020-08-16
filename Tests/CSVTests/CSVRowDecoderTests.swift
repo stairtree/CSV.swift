@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import CSV
+@testable import yaslabCSV
 
 //===----------------------------------------------------------------------===//
 // Models

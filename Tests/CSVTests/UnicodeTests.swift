@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-@testable import CSV
+@testable import yaslabCSV
 
 class UnicodeTests: XCTestCase {
 
