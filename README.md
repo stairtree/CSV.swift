@@ -1,5 +1,7 @@
 # CSV.swift
 
+## NOTE: This fork exists to rename the product in `Package.swift`; it contains no functional changes whatsoever.
+
 [![Build Status](https://travis-ci.org/yaslab/CSV.swift.svg?branch=master)](https://travis-ci.org/yaslab/CSV.swift)
 [![codecov](https://codecov.io/gh/yaslab/CSV.swift/branch/master/graph/badge.svg)](https://codecov.io/gh/yaslab/CSV.swift)
 [![Open Source Helpers](https://www.codetriage.com/yaslab/csv.swift/badges/users.svg)](https://www.codetriage.com/yaslab/csv.swift)

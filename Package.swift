@@ -1,15 +1,13 @@
-// swift-tools-version:5.0
-
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
     name: "CSV.swift",
     products: [
-        .library(name: "CSV", targets: ["CSV"])
+        .library(name: "yaslabCSV", targets: ["CSV"])
     ],
     targets: [
         .target(name: "CSV"),
-        .testTarget(name: "CSVTests", dependencies: ["CSV"])
-    ],
-    swiftLanguageVersions: [.v5]
+        .testTarget(name: "CSVTests", dependencies: [.target(name: "CSV")])
+    ]
 )
